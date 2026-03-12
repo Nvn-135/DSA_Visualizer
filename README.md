@@ -29,5 +29,4 @@ An interactive web application built to visualize various Data Structures and So
 ## 🚀 How to Run Locally
 
 1. Clone this repository to your local machine:
-   ```bash
    git clone [https://github.com/Nvn-135/DSA_Visualizer.git]
