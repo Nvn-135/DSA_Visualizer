@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Sort Visualizer</title>
+    <link rel="stylesheet" href="quick.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Quick Sort Visualizer</h1>
+        <div class="controls">
+            <div class="slider-container">
+                <label for="size-slider">Array size: 
+                    <span id = "size-value">15</span>
+                </label>
+                <input type="range" id = "size-slider" min = "5" max = "50" value = "15">
+            </div>
+            <button id="generate-btn">Generate New Array</button>
+            <button id="sort-btn">Start Quick Sort</button>
+        </div>
+    </div>
+    
+    <div id="array-container"></div>
+
+    <script src="quick.js"></script>
+</body>
+</html>
